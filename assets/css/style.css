@@ -2,3 +2,59 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar li {
+    color: #d1d1d1;
+}
+
+.navbar-default {
+    border: none;
+    border-radius: 0;
+    background: #000000;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background: none;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:hover {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active,
+.navbar-default .navbar-nav li:hover {
+    background: #e74c3c;
+    padding-bottom: 5px;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #eeeeee;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #ffffff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background: #333333;
+}
+
+.affix.navbar-default {
+    background: #000000;
+}

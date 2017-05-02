@@ -1,24 +1,22 @@
 <div class="logo-menu">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="50">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header col-md-3">
+    <nav class="navbar navbar-default" role="navigation" data-spy="affix" data-offset-top="50">
+        <div class="container-fluid">
+            <div class="navbar-header col-md-1">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#home"><?php echo page_title($page_title) ?></a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav col-md-9 pull-right">
+                <ul class="nav navbar-nav col-md-11 pull-left">
                     <li class="active">
                         <a href="#home"><i class="fa fa-home"></i> Home</a>
                     </li>
                     <li>
                         <a href="#specials"><i class="fa fa-money"></i> Specials</a>
-                    </li>                    
+                    </li>
                     <li>
                         <a href="#services"><i class="fa fa-cogs"></i> Our Services</a>
                     </li>

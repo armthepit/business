@@ -10,9 +10,9 @@
         return $description;    
     }
 
-    function page_keywords($page_keywords) {
-        $keywords = $page_keywords;
-        return $keywords;    
+    function business_phone($business_phone) {
+        $phone = $business_phone;
+        return $phone;    
     }
 
 ?>
